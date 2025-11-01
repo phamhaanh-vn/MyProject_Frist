@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project 2D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\sytemsave\\sytemsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\sytemsave\\sytemsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\sytemsave\\savefruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\sytemsave\\savefruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\bossphuthuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\bossphuthuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\bulletbossphuthuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\bulletbossphuthuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\area_boss_phu_thuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\area_boss_phu_thuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\interactionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\interactionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|d:\\project 2d\\assets\\taisan\\code\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084BD7D5-92E9-1AE9-01ED-1C16A7023BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\taisan\\code\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveFruits.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\SytemSave\\SaveFruits.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\SytemSave\\SaveFruits.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\SytemSave\\SaveFruits.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\SytemSave\\SaveFruits.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:20:20.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SytemSave.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\SytemSave\\SytemSave.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\SytemSave\\SytemSave.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\SytemSave\\SytemSave.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\SytemSave\\SytemSave.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:18:32.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Area_Boss_Phu_Thuy.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\Area_Boss_Phu_Thuy.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\Area_Boss_Phu_Thuy.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\Area_Boss_Phu_Thuy.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\Area_Boss_Phu_Thuy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:10:16.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BossPhuThuy.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\BossPhuThuy.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\BossPhuThuy.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\BossPhuThuy.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\BossPhuThuy.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAASwBAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:11:19.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BulletBossPhuThuy.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\BulletBossPhuThuy.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\BulletBossPhuThuy.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\BulletBossPhuThuy.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\BulletBossPhuThuy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:12:07.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\Item.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\Item.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:12:35.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\Inventory.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\Inventory.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:12:33.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InteractionSystem.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\InteractionSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\InteractionSystem.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\InteractionSystem.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\InteractionSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:12:32.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\CameraFollow.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:12:21.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Moveplayer.cs",
+              "DocumentMoniker": "D:\\Project 2D\\Assets\\taisan\\code\\Moveplayer.cs",
+              "RelativeDocumentMoniker": "Assets\\taisan\\code\\Moveplayer.cs",
+              "ToolTip": "D:\\Project 2D\\Assets\\taisan\\code\\Moveplayer.cs",
+              "RelativeToolTip": "Assets\\taisan\\code\\Moveplayer.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAowKMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:10:58.82Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+# =============== #
+# Unity generated #
+# =============== #
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Avoid tracking crash and log files
+*.pidb
+*.booproj
+*.svd
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Rider / VSCode / JetBrains
+.idea/
+.vscode/
+*.DotSettings.user
+
+# Unity auto-generated meta
+# (but keep Assets meta files)
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Asset Store tools
+AssetStoreTools*
+
+# Cache
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.app
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.ipa
+*.msi
+*.exe
+*.zip
+
+# Collaboration / Cloud
+/[Cc]ollab/
+
+# Addressables
+/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.json
+
+# Plastic SCM
+/.plastic/
+/PlasticAssetsCache/
+
+# Auto-generated lighting data
+/[Ll]ightmap-[0-9]+.exr
+
+# ShaderCache
+/[Ss]haderCache/
+
+# Crash reports
+/crashReports/

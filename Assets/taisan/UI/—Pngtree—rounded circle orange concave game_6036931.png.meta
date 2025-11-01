@@ -1,0 +1,749 @@
+fileFormatVersion: 2
+guid: 9ea86876c7b7eaa4b95e7e6be7703565
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 1200
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaa684387efb9b48b4d062c90e503f9
+      internalID: -1176586457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_1"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 799
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a091f447440abe542b2c56c4f91a91ae
+      internalID: -843786989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_2"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 799
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cbcb0361cdd3e47a05028bc89e207b
+      internalID: -1138313355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_3"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 799
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8721bcade138a3e45948b4ee17f82b0f
+      internalID: -77996818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_4"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 799
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bd7cdd4c5c6534eb901518b46146ef
+      internalID: 387106753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_5"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 799
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95649d0a6bb0df745a204bb55d95fb3f
+      internalID: 1133697631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_6"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 670
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc135ffd5f030ea478405ceaae3da3dd
+      internalID: 1781800655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_7"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 670
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520953c6007e22141b4b71ba97409b34
+      internalID: 1528695125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_8"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 670
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4e0485fd31284aa25da908ee1f216
+      internalID: -1287710851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_9"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 670
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756af92c91d0caf47b19bd3da6d534d9
+      internalID: -220795853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_10"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 670
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5d91d5b8b435642a368cb501e5494c
+      internalID: -1732102536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_11"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 540
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e76cc4150347643a147c517314f10b
+      internalID: 25190934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_12"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 540
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c3c3938e2d74040bfc2a7081f036a3
+      internalID: 1548151986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_13"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 540
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948a38445098946448ff31e3fc939078
+      internalID: -2010905941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_14"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 540
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0a349322beb614aaf4af71e5fa9055
+      internalID: 1403250182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_15"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 540
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a02d937d1a2c94c916d7d4c32c1ed2
+      internalID: 648297290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_16"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 411
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaabd73efa14494c89dc41545c0602e
+      internalID: 2101207736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_17"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 411
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12a6b881184ac84598ffa59c333db2f
+      internalID: -1553380037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_18"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 411
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bffe07f29c0d04b97dd2d01e778620
+      internalID: -780891077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_19"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 411
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819635303ccdade458cda3e8691cd2d2
+      internalID: 993542884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_20"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 411
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149d39cc0044e2f4b9dbb5e311e2f815
+      internalID: -1949433381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_21"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 281
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094adeb6a006cca4aaff185d207e0ed8
+      internalID: 367626458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_22"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 281
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee511f6b7d904d4fb7a03a7ec2edd75
+      internalID: 1632302320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_23"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 281
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab84e920413fce42bbaa4f220809842
+      internalID: -765606275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_24"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 281
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b8733308425af47ac2791efde131fe
+      internalID: -797974659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_25"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 281
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e22a567c50fc7418839daf98afdc35
+      internalID: 74445174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_26"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb1e26aa8ee3f940b3c721fb45ab34f
+      internalID: -1323400935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_27"
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 42
+        width: 358
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b990423f85fd6dc448a4200ff006807a
+      internalID: -1182420644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014rounded circle orange concave game_6036931_28"
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 42
+        width: 359
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c00d35943d5b25499c77424e74acff7
+      internalID: 1414832076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_0": -1176586457
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_1": -843786989
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_10": -1732102536
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_11": 25190934
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_12": 1548151986
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_13": -2010905941
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_14": 1403250182
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_15": 648297290
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_16": 2101207736
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_17": -1553380037
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_18": -780891077
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_19": 993542884
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_2": -1138313355
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_20": -1949433381
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_21": 367626458
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_22": 1632302320
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_23": -765606275
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_24": -797974659
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_25": 74445174
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_26": -1323400935
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_27": -1182420644
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_28": 1414832076
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_3": -77996818
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_4": 387106753
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_5": 1133697631
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_6": 1781800655
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_7": 1528695125
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_8": -1287710851
+      "\u2014Pngtree\u2014rounded circle orange concave game_6036931_9": -220795853
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
