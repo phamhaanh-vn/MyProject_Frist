@@ -11020,10 +11020,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 2018363151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 708b424435c2dcf40b0a9c478b2f84ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 32f385a083ba24c42a1a7636f54f8d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Moveplayer: {fileID: 245680249}
+  Gate: {fileID: 0}
+  Location_Boss_Plan: {fileID: 0}
+  Location_Boss_Phu_Thuy: {fileID: 0}
+  FollowBoss_Plan: 0
+  FollBoss_Phu_Thuy: 0
+  CloseGate: 0
+  Zoomcam: 0
+  SpeedZoom: 0
+  Doxa: 0
+  t: 0
+  isFollowingPlayer: 1
 --- !u!1001 &2022382576
 PrefabInstance:
   m_ObjectHideFlags: 0

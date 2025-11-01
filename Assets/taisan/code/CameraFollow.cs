@@ -18,6 +18,7 @@ public class CameraFollow : MonoBehaviour
     public float SpeedZoom;
     public float Doxa;
     public float t;
+    public bool isFollowingPlayer = true;
     void Start()
     {
         cam = Camera.main;
@@ -27,6 +28,14 @@ public class CameraFollow : MonoBehaviour
         ZoomToBoss_Plan();
         ZoomXa();
         ZoomToBoss_Phu_Thuy();
+        FollowPlayer();
+    }
+    public void FollowPlayer()
+    {
+        if (isFollowingPlayer == true)
+        {
+            transform.position = Moveplayer.transform.position + follow;
+        }
     }
     public void ZoomToBoss_Plan()
     {
