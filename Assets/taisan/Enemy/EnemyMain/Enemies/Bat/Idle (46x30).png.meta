@@ -83,7 +83,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -180,10 +180,10 @@ TextureImporter:
       name: Idle (46x30)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 46
-        height: 30
+        x: 15
+        y: 4
+        width: 17
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,10 +201,10 @@ TextureImporter:
       name: Idle (46x30)_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 0
-        width: 46
-        height: 30
+        x: 61
+        y: 5
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: Idle (46x30)_2
       rect:
         serializedVersion: 2
-        x: 92
-        y: 0
-        width: 46
-        height: 30
+        x: 107
+        y: 6
+        width: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,10 +243,10 @@ TextureImporter:
       name: Idle (46x30)_3
       rect:
         serializedVersion: 2
-        x: 138
-        y: 0
-        width: 46
-        height: 30
+        x: 153
+        y: 6
+        width: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +264,10 @@ TextureImporter:
       name: Idle (46x30)_4
       rect:
         serializedVersion: 2
-        x: 184
-        y: 0
-        width: 46
-        height: 30
+        x: 199
+        y: 6
+        width: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +285,10 @@ TextureImporter:
       name: Idle (46x30)_5
       rect:
         serializedVersion: 2
-        x: 230
-        y: 0
-        width: 46
-        height: 30
+        x: 245
+        y: 5
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +306,10 @@ TextureImporter:
       name: Idle (46x30)_6
       rect:
         serializedVersion: 2
-        x: 276
-        y: 0
-        width: 46
-        height: 30
+        x: 291
+        y: 4
+        width: 17
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: Idle (46x30)_7
       rect:
         serializedVersion: 2
-        x: 322
-        y: 0
-        width: 46
-        height: 30
+        x: 336
+        y: 5
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: Idle (46x30)_8
       rect:
         serializedVersion: 2
-        x: 368
-        y: 0
-        width: 46
-        height: 30
+        x: 382
+        y: 6
+        width: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,10 +369,10 @@ TextureImporter:
       name: Idle (46x30)_9
       rect:
         serializedVersion: 2
-        x: 414
-        y: 0
-        width: 46
-        height: 30
+        x: 428
+        y: 6
+        width: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +390,10 @@ TextureImporter:
       name: Idle (46x30)_10
       rect:
         serializedVersion: 2
-        x: 460
-        y: 0
-        width: 46
-        height: 30
+        x: 474
+        y: 6
+        width: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -411,10 +411,10 @@ TextureImporter:
       name: Idle (46x30)_11
       rect:
         serializedVersion: 2
-        x: 506
-        y: 0
-        width: 46
-        height: 30
+        x: 520
+        y: 5
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
