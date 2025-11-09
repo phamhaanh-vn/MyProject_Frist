@@ -28,6 +28,18 @@ public class EnemyBone : MonoBehaviour
     void Update()
     {
         OutArea();
+        if(transform.position.x > Moveplayer.Mo.transform.position.x)
+        {
+            Vector3 scale = transform.localScale;
+            scale.x = -1;
+            transform.localScale = scale;
+        }
+        else
+        {
+            Vector3 scale = transform.localScale;
+            scale.x = 1;
+            transform.localScale = scale;
+        }
     }
     public IEnumerator Attack()
     {
