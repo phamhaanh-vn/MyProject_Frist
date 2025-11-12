@@ -474,10 +474,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 708b424435c2dcf40b0a9c478b2f84ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 32f385a083ba24c42a1a7636f54f8d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Moveplayer: {fileID: 1968187293}
+  Gate: {fileID: 0}
+  Location_Boss_Plan: {fileID: 0}
+  Location_Boss_Phu_Thuy: {fileID: 0}
+  FollowBoss_Plan: 0
+  FollowBoss_Phu_Thuy: 0
+  CloseGate: 0
+  Zoomcam: 0
+  SpeedZoom: 0
+  Doxa: 0
+  t: 0
+  isFollowingPlayer: 1
 --- !u!4 &598595087 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7788067273347685980, guid: 07c5c21422ed28240a333bfc4929ed20, type: 3}
@@ -6566,7 +6577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1816937726, guid: 9eac463b034c1de488d28e9a26f90887, type: 3}
       propertyPath: TimeHoiSinh
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1968187294, guid: 9eac463b034c1de488d28e9a26f90887, type: 3}
       propertyPath: tocdo

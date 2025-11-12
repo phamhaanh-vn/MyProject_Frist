@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DanPlan : MonoBehaviour
+public class DanPlayer : MonoBehaviour
 {
     public float Speed;
     public bool kiemtra;
@@ -11,11 +11,9 @@ public class DanPlan : MonoBehaviour
     {
 
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if(kiemtra == false)
+        if (kiemtra == false)
         {
             transform.Translate(-transform.right * Speed * Time.deltaTime);
         }
@@ -26,9 +24,16 @@ public class DanPlan : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("vatcan") || collision.CompareTag("MovingThanh"))
+        if (collision.CompareTag("vatcan") || collision.CompareTag("MovingThanh") || collision.CompareTag("Boss") || collision.CompareTag("Enemy"))
         {
             Destroy(gameObject);
+        }
+        if (collision.CompareTag("Boss"))
+        {
+            BossPlan plan = collision.GetComponentInParent<BossPlan>();
+            plan.Hurt(DameBullet_Player);
+            BossPhuThuy boss = collision.GetComponentInParent<BossPhuThuy>();
+            boss.Hurt(DameBullet_Player);
         }
     }
 }

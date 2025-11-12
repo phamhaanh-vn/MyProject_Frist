@@ -12,7 +12,7 @@ public class CameraFollow : MonoBehaviour
     public Transform Location_Boss_Phu_Thuy;
     private Camera cam;
     public bool FollowBoss_Plan;
-    public bool FollBoss_Phu_Thuy;
+    public bool FollowBoss_Phu_Thuy;
     public bool CloseGate;
     public bool Zoomcam = false;
     public float SpeedZoom;
@@ -60,7 +60,7 @@ public class CameraFollow : MonoBehaviour
                 transform.position = Moveplayer.transform.position + follow;
             }
             // Chú ý khi dùng else if thì phải đặt điều kiện cụ thể hơn lên trên
-            else if (CloseGate && FollBoss_Phu_Thuy)
+            else if (CloseGate && FollowBoss_Phu_Thuy)
             {
                 transform.position = Vector3.Lerp(transform.position, Location_Boss_Phu_Thuy.position, SpeedZoom * Time.deltaTime);
             }

@@ -57,6 +57,7 @@ public class PlayerHealth : MonoBehaviour
             Destroy(collision.gameObject);
             if (CurrentHealth <= 0)
             {
+                HillGetComponent();
                 An.SetTrigger("Death");
                 AudioManager.AU.PlaySFX(AudioManager.AU.Death);
                 StartCoroutine(Die());

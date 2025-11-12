@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8640967507096067737}
   - component: {fileID: 550176274309319705}
   - component: {fileID: 3626883968915477637}
-  - component: {fileID: 7135537079362659222}
+  - component: {fileID: 5595037269060984221}
   m_Layer: 10
   m_Name: DanPlayer
   m_TagString: Bullet_Player
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
---- !u!114 &7135537079362659222
+--- !u!114 &5595037269060984221
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,9 +121,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8849772556805229374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0981cb9657c9354d9841f331ee8884f, type: 3}
+  m_Script: {fileID: 11500000, guid: 53abee38d413adf4a8f46f9993ba91ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 15
-  kiemtra: 1
-  DameBullet_Player: 10
+  kiemtra: 0
+  DameBullet_Player: 3

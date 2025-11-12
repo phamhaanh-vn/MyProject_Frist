@@ -4,9 +4,6 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
-
-
 public class Moveplayer : MonoBehaviour
 {
     public static Moveplayer Mo;

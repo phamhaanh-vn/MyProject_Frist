@@ -19,7 +19,7 @@ public class Area_Boss_Phu_Thuy : MonoBehaviour
         cam.CloseGate = true;
         Gate.isroi = true;
         yield return new WaitForSeconds(TimeToGate);
-        cam.FollBoss_Phu_Thuy = true;
+        cam.FollowBoss_Phu_Thuy = true;
         yield return new WaitForSeconds(TimeToBoss);
         cam.CloseGate = false;
         Boss.IsScens = true;

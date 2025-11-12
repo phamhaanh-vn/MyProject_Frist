@@ -150,7 +150,7 @@ public class BossPhuThuy : MonoBehaviour
     {
         Destroy(ThanhHP);
         cam.CloseGate = true;
-        cam.FollBoss_Phu_Thuy = true;
+        cam.FollowBoss_Phu_Thuy = true;
         Moveplayer.Mo.enabled = false;
         Moveplayer.rb.velocity = Vector2.zero;
         Moveplayer.dichuyen.SetFloat("dichuyen", 0f);

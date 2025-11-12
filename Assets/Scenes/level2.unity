@@ -10631,7 +10631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1816937726, guid: 9eac463b034c1de488d28e9a26f90887, type: 3}
       propertyPath: TimeHoiSinh
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1816937726, guid: 9eac463b034c1de488d28e9a26f90887, type: 3}
       propertyPath: CurrentHealth
@@ -11028,7 +11028,7 @@ MonoBehaviour:
   Location_Boss_Plan: {fileID: 0}
   Location_Boss_Phu_Thuy: {fileID: 0}
   FollowBoss_Plan: 0
-  FollBoss_Phu_Thuy: 0
+  FollowBoss_Phu_Thuy: 0
   CloseGate: 0
   Zoomcam: 0
   SpeedZoom: 0

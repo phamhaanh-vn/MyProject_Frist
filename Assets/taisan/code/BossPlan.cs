@@ -1,16 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 public class BossPlan : MonoBehaviour
 {
     public GameObject Dan;
     public GameObject DanTrum;
     public Transform FirePoint;
     private Animator an;
+    public GameObject ThanhHp;
+    public Image Fill_Boss;
     private float count = 0;
     private float TimeWaitTurn = 2.5f;
+    private float HP_max = 20f;
+    private float currentHP;
     void Start()
     {
+        currentHP = HP_max;
         an = GetComponent<Animator>();
     }
     void Update()
@@ -72,5 +78,17 @@ public class BossPlan : MonoBehaviour
     {
         Instantiate(DanTrum, FirePoint.position, DanTrum.transform.rotation);
     }
- 
+    public void Hurt(float Dame_Bullet_Player)
+    {
+        currentHP -= Dame_Bullet_Player;
+        Update_HP();
+        if (currentHP <= 0)
+        {
+            Destroy(ThanhHp);
+        }
+    }
+    private void Update_HP()
+    {
+        Fill_Boss.fillAmount = currentHP / HP_max;
+    }
 }

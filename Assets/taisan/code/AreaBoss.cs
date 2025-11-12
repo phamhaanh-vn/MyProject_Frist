@@ -6,6 +6,7 @@ public class AreaBoss : MonoBehaviour
 {
     public CameraFollow Camfl;
     public BossPlan boss;
+    public GameObject ThanhHP;
     void Start()
     {
     }
@@ -18,12 +19,14 @@ public class AreaBoss : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            ThanhHP.SetActive(true);
             StartCoroutine(Cutscene());
         }
     }
     private IEnumerator Cutscene()
     {
         Moveplayer.Mo.enabled = false;
+        Moveplayer.rb.velocity = Vector2.zero;
         Moveplayer.dichuyen.SetFloat("dichuyen", 0f);
         Moveplayer.dichuyen.SetBool("isground", true);
         Camfl.FollowBoss_Plan = true;
@@ -33,5 +36,7 @@ public class AreaBoss : MonoBehaviour
         boss.StartCoroutine(boss.Shoot());
         Moveplayer.Mo.enabled = true;
         GetComponent<BoxCollider2D>().enabled = false;
+        yield return new WaitForSeconds(5f);
+        GetComponent<BoxCollider2D>().enabled = true;
     }
 }
