@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7788067273347685983}
   - component: {fileID: 7788067273347685982}
   - component: {fileID: 3841862704881242415}
-  - component: {fileID: 1554461088986087604}
   m_Layer: 0
   m_Name: Apple main 1
   m_TagString: GoodFruit
@@ -134,16 +133,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.875}
   m_EdgeRadius: 0
---- !u!114 &1554461088986087604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7788067273347685977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aa7ade225c2ca846acaa6869b2c6dd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Id: f18e1545-b4ce-46a3-a920-b15fe1d7c0d4

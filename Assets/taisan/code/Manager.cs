@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class Manager : MonoBehaviour
 {
     public GameObject Window_Menu;
+    public GameObject Window_Instruction;
     public Image Window_YesNo;
     public TextMeshProUGUI ScoreFruit;
     private int Score;
@@ -17,9 +18,11 @@ public class Manager : MonoBehaviour
     public Image ImageHeart2;
     void Start()
     {
-
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            StartCoroutine(Instruction());
+        }
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -67,16 +70,28 @@ public class Manager : MonoBehaviour
     }
     public void ShowWindow_Menu()
     {
+        Moveplayer.Mo.enabled = false;
         Window_Menu.SetActive(true);
         Time.timeScale = 0; //Time.timeScale chính là tốc độ game
     }
+    public void ShowWindow_Instruction()
+    {
+        Window_Instruction.SetActive(true);
+    }
+    public void CloseWindow_Instruction()
+    {
+        Window_Instruction.SetActive(false);
+    }
     public void Button_Continue()
     {
+        Moveplayer.Mo.enabled = true;
+        VolumeManager.VM.LoadVolume();
         Window_Menu.SetActive(false);
         Time.timeScale = 1;
     }
     public void Button_Again_Start()
     {
+        AudioManager.AU.StopMusic();
         SceneManager.LoadScene("StartGame");
         Time.timeScale = 1;
     }
@@ -96,5 +111,11 @@ public class Manager : MonoBehaviour
     public void Button_No()
     {
         Window_YesNo.gameObject.SetActive(false);
+    }
+    public IEnumerator Instruction()
+    {
+        Window_Instruction.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        Window_Instruction.SetActive(false);
     }
 }

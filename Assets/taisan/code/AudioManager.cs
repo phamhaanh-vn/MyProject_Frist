@@ -33,4 +33,12 @@ public class AudioManager : MonoBehaviour
     {
         SFXSource.PlayOneShot(clip);
     }
+    public void StopMusic()
+    {
+        MusicSource.Stop(); 
+    }
+    public void ContinueMusic()
+    {
+        MusicSource.Play();
+    }
 }

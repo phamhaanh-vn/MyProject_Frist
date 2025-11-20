@@ -14,7 +14,6 @@ public class Inventory : MonoBehaviour
     public Image Desciption_Image;
     public TMP_Text NameItem;
     public TMP_Text Desscription_Item;
-    public UnityEvent Event;
     public bool isOpen;
     void Start()
     {

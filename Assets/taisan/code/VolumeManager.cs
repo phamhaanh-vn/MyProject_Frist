@@ -2,13 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class VolumeManager : MonoBehaviour
 {
+    public static VolumeManager VM;
     public AudioMixer MyMixer;
     public Slider MusicSlider;
     public Slider SFXSlider;
+    void Awake()
+    {
+        VM = this;
+    }
     void Start()
     {
         if (PlayerPrefs.HasKey("MusicVolume"))
@@ -28,7 +34,7 @@ public class VolumeManager : MonoBehaviour
         MyMixer.SetFloat("SFX", Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat("SFXVolume", volume);
     }
-    private void LoadVolume()
+    public void LoadVolume()
     {
         MusicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
         SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");

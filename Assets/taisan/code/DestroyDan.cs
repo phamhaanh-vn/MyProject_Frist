@@ -17,6 +17,9 @@ public class DestroyDan : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
+        if(collision.CompareTag("Bullet_Player") || collision.CompareTag("vatcan") || collision.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

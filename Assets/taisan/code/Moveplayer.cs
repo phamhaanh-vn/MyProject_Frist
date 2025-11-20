@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 public class Moveplayer : MonoBehaviour
 {
     public static Moveplayer Mo;
@@ -81,12 +82,12 @@ public class Moveplayer : MonoBehaviour
                 PlayerShoot();
             }
         }
-        if (Keyboard.current.numpad0Key.wasPressedThisFrame)
+        if (Keyboard.current.digit0Key.wasPressedThisFrame)
         {
             Debug.Log("Da luu");
             SytemSave.Save();
         }
-        if (Keyboard.current.numpad1Key.wasPressedThisFrame)
+        if (Keyboard.current.digit1Key.wasPressedThisFrame)
         {
             Debug.Log("Da load  ");
             SytemSave.Load();
@@ -158,17 +159,25 @@ public class Moveplayer : MonoBehaviour
 
     public void Save(ref PlayerSaveData data)
     {
-        data.Position = transform.position;
+        string key = "PlayerPos_" + SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetFloat(key + "x", transform.position.x);
+        PlayerPrefs.SetFloat(key + "y", transform.position.y);
+        PlayerPrefs.SetFloat(key + "z", transform.position.z);
+        PlayerPrefs.Save();
     }
 
     public void Load(PlayerSaveData data)
     {
-        transform.position = data.Position;
+        string key = "PlayerPos_" + SceneManager.GetActiveScene().name;
+        float x = PlayerPrefs.GetFloat(key + "x", transform.position.x);
+        float y = PlayerPrefs.GetFloat(key + "y", transform.position.y);
+        float z = PlayerPrefs.GetFloat(key + "z", transform.position.z);
+        transform.position = new Vector3(x,y,z);
     }
 }
 [System.Serializable]
 public struct PlayerSaveData // Dữ liệu nhỏ dùng struct
 {
-    public Vector3 Position;
+    
 }
 
