@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
@@ -15,13 +17,17 @@ public class PlayerHealth : MonoBehaviour
     public GameObject SpawnPlayer;
     public float TimeHoiSinh = 0.5f;
     public Vector2 Pos;
+    private bool Push;
     private Animator An;
+    private Rigidbody2D rb;
+    public float SpeedPush;
     private void Awake()
     {
         heart = this;
     }
     void Start()
     {
+        rb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
         Pos = transform.position;
         CurrentHealth = MaxHealth;
         Manager.diem.UpdateHeart();
@@ -84,13 +90,26 @@ public class PlayerHealth : MonoBehaviour
                 isBag = true;
             }
         }
+        if (collision.collider.CompareTag("Bag"))
+        {
+            isBag = true;
+            Moveplayer.Mo.CanMove = false;
+            Vector2 DirPush = (transform.position - collision.transform.position).normalized;
+            rb.AddForce(DirPush * SpeedPush, ForceMode2D.Impulse);
+            StartCoroutine(TimeCanMove());
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Plan"))
+        if (collision.collider.CompareTag("Plan") || (collision.collider.CompareTag("Bag")))
         {
             isBag = false;
         }
+    }
+    public IEnumerator TimeCanMove()
+    {
+        yield return new WaitForSeconds(0.7f);
+        Moveplayer.Mo.CanMove = true;
     }
     public void UpdateCheckPoint(Vector2 CheckPoint)
     {

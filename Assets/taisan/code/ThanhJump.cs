@@ -24,7 +24,6 @@ public class ThanhJump : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, 0f);
                 rb.AddForce(Vector2.up * SpeedJump, ForceMode2D.Impulse);
                 Moveplayer.Mo.UpMultiplier = 1f;
-            
         }
         else
         {

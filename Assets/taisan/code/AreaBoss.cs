@@ -35,8 +35,6 @@ public class AreaBoss : MonoBehaviour
         Camfl.Zoomcam = true;
         boss.StartCoroutine(boss.Shoot());
         Moveplayer.Mo.enabled = true;
-        GetComponent<BoxCollider2D>().enabled = false;
-        yield return new WaitForSeconds(5f);
-        GetComponent<BoxCollider2D>().enabled = true;
+        Destroy(gameObject);
     }
 }

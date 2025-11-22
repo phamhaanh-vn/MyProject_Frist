@@ -20,9 +20,9 @@ public class Moveplayer : MonoBehaviour
     public float TimeDelayShoot;
     private  float CheckTimeShoot;
     public bool isShoot;
+    public bool CanMove = true;
     private BoxCollider2D coll;
     [SerializeField] private LayerMask groundLayer; // tạo 1 layer để xét có phải mặt đất hay không
-
     private void Awake()
     {
         Mo = this;
@@ -38,61 +38,62 @@ public class Moveplayer : MonoBehaviour
 
     void Update()
     {
-        traiphai = Input.GetAxisRaw("Horizontal");
-
-        rb.velocity = new Vector2(traiphai * tocdo, rb.velocity.y);
-        if( isright== true&& traiphai== -1)
+        if (CanMove == true)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
-            isright = false;
-        }
-        else if( isright== false && traiphai== 1 )
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-            isright = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jump);
-            AudioManager.AU.PlaySFX(AudioManager.AU.Jump);
-        }
-        if (rb.velocity.y > 0.1f && !Input.GetKey(KeyCode.Space))
-        {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (UpMultiplier - 1) * Time.deltaTime;
-            // làm cho khi thả nút sẽ kéo xuống 1 lực luôn
-        }
-
-        else if (rb.velocity.y < -0.1f)
-        {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (FallMultiplier - 1) * Time.deltaTime;
-            // thêm lực khi rơi xuống tạo cảm giác không bị hẫng
-        }
-
-        dichuyen.SetFloat("dichuyen", Mathf.Abs(traiphai));
-        dichuyen.SetBool("isnhay",  rb.velocity.y > 0.1f);
-        dichuyen.SetBool("isroi",  rb.velocity.y < -0.1f);
-        dichuyen.SetBool("isground", IsGrounded());
-        CheckTimeShoot -= Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.J) && isShoot)
-        {
-            if (CheckTimeShoot < 0)
+            traiphai = Input.GetAxisRaw("Horizontal");
+            rb.velocity = new Vector2(traiphai * tocdo, rb.velocity.y);
+            if (isright == true && traiphai == -1)
             {
-                CheckTimeShoot = TimeDelayShoot;
-                PlayerShoot();
+                transform.localScale = new Vector3(-1, 1, 1);
+                isright = false;
+            }
+            else if (isright == false && traiphai == 1)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+                isright = true;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jump);
+                AudioManager.AU.PlaySFX(AudioManager.AU.Jump);
+            }
+            if (rb.velocity.y > 0.1f && !Input.GetKey(KeyCode.Space))
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (UpMultiplier - 1) * Time.deltaTime;
+                // làm cho khi thả nút sẽ kéo xuống 1 lực luôn
+            }
+
+            else if (rb.velocity.y < -0.1f)
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (FallMultiplier - 1) * Time.deltaTime;
+                // thêm lực khi rơi xuống tạo cảm giác không bị hẫng
+            }
+
+            dichuyen.SetFloat("dichuyen", Mathf.Abs(traiphai));
+            dichuyen.SetBool("isnhay", rb.velocity.y > 0.1f);
+            dichuyen.SetBool("isroi", rb.velocity.y < -0.1f);
+            dichuyen.SetBool("isground", IsGrounded());
+            CheckTimeShoot -= Time.deltaTime;
+            if (Input.GetKeyDown(KeyCode.J) && isShoot)
+            {
+                if (CheckTimeShoot < 0)
+                {
+                    CheckTimeShoot = TimeDelayShoot;
+                    PlayerShoot();
+                }
+            }
+            if (Keyboard.current.digit0Key.wasPressedThisFrame)
+            {
+                Debug.Log("Da luu");
+                SytemSave.Save();
+            }
+            if (Keyboard.current.digit1Key.wasPressedThisFrame)
+            {
+                Debug.Log("Da load  ");
+                SytemSave.Load();
             }
         }
-        if (Keyboard.current.digit0Key.wasPressedThisFrame)
-        {
-            Debug.Log("Da luu");
-            SytemSave.Save();
-        }
-        if (Keyboard.current.digit1Key.wasPressedThisFrame)
-        {
-            Debug.Log("Da load  ");
-            SytemSave.Load();
-        }
-
     }
     public bool IsGrounded()
     {
