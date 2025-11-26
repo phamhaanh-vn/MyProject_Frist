@@ -26,11 +26,15 @@ public class BossPhuThuy : MonoBehaviour
     private float TimeSpawnGate = 0.43f;
     private float TimeDelayAttack = 2.5f;
     public float TimeDelaySpawnBone;
-    private int QuantityBone;
+    public int QuantityBone;
     public bool inArea= false;
     public bool IsRunning= false;
     private bool Following = true;
     public bool IsScens = false;
+    void Awake()
+    {
+        Enemy_Phu_Thuy = this;
+    }
     void Start()
     {
         currentHP = HP_max;

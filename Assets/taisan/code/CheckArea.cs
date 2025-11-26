@@ -13,7 +13,14 @@ public class CheckArea : MonoBehaviour
     }
     void Update()
     {
-
+        if(PlayerHealth.heart.CurrentHealth <= 0)
+        {
+            for (int i = 0; i < trapgrow.Length; i++)
+            {
+                trapgrow[i].isGrow= false;
+                trapgrow[i].transform.localScale = trapgrow[i].LocalscaleStart;
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -26,8 +26,6 @@ public class Moveplayer : MonoBehaviour
     private void Awake()
     {
         Mo = this;
-        dichuyen = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
     }
     void Start()
     {
@@ -110,7 +108,7 @@ public class Moveplayer : MonoBehaviour
         // Phải tạo GameObject mới để có thể kiểm soát hướng và thể loại sinh sản
         GameObject DanShoot = Instantiate(DanPlayer, transform.position, transform.rotation);
         // Truy cập vào Code để thay đổi thông số sinh sản
-        DanPlan DanScrip = DanShoot.GetComponent<DanPlan>();
+        DanPlayer DanScrip = DanShoot.GetComponent<DanPlayer>();
         if (transform.localScale.x < 0)
         {
             DanScrip.kiemtra = false;
@@ -165,15 +163,32 @@ public class Moveplayer : MonoBehaviour
         PlayerPrefs.SetFloat(key + "y", transform.position.y);
         PlayerPrefs.SetFloat(key + "z", transform.position.z);
         PlayerPrefs.Save();
+        if (isShoot == true)
+        {
+            PlayerPrefs.SetFloat("isShoot", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("isShoot", 0);
+        }
     }
 
     public void Load(PlayerSaveData data)
     {
+        int shootValue = PlayerPrefs.GetInt("isShoot", 0);
         string key = "PlayerPos_" + SceneManager.GetActiveScene().name;
         float x = PlayerPrefs.GetFloat(key + "x", transform.position.x);
         float y = PlayerPrefs.GetFloat(key + "y", transform.position.y);
         float z = PlayerPrefs.GetFloat(key + "z", transform.position.z);
         transform.position = new Vector3(x,y,z);
+        if(shootValue == 1)
+        {
+            isShoot = true;
+        }
+        else
+        {
+            isShoot = false;
+        }
     }
 }
 [System.Serializable]

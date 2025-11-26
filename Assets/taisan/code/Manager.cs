@@ -18,7 +18,7 @@ public class Manager : MonoBehaviour
     public Image ImageHeart2;
     void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 1)
+        if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 3)
         {
             StartCoroutine(Instruction());
         }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Dialogue : MonoBehaviour
@@ -14,6 +15,8 @@ public class Dialogue : MonoBehaviour
     public float SpeedWriting;
     private bool WaitForNext;
     public static Dialogue Di;
+    public GameObject HasShoot;
+    public GameObject Button_Shoot;
     private void Awake()
     {
         Di = this;
@@ -35,12 +38,15 @@ public class Dialogue : MonoBehaviour
             {
                 GetDialogue(index);
             }
-            else
+            else 
             {
-                Moveplayer.Mo.isShoot = true;
                 index = 0;
-                Letter.SetActive(true); 
+                Letter.SetActive(true);
                 EndDialogue();
+                if(Moveplayer.Mo.isShoot== false)
+                {
+                    StartCoroutine(hasShoot());
+                }
             }
         }
     }
@@ -80,6 +86,13 @@ public class Dialogue : MonoBehaviour
         {
             WaitForNext = true;
         }
-     
+    }
+    private IEnumerator hasShoot()
+    {
+        Button_Shoot.SetActive(true);
+        Moveplayer.Mo.isShoot = true;
+        HasShoot.SetActive(true);
+        yield return new WaitForSeconds(2.5f);
+        HasShoot.SetActive(false);
     }
 }

@@ -124,9 +124,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886d98de495919f4cb49c731fd1f0245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InteractType: 1
   Type: 1
-  Sr: {fileID: 0}
-  InformationText: 
+  Sr: {fileID: -1217611291, guid: 4d942a0725daa3649a1a4d0f64b4ee20, type: 3}
+  InformationText: +1 HP
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3314260092145455498}
+        m_TargetAssemblyTypeName: Item, Assembly-CSharp
+        m_MethodName: UseHP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

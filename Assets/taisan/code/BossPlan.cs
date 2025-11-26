@@ -85,6 +85,7 @@ public class BossPlan : MonoBehaviour
         if (currentHP <= 0)
         {
             Destroy(ThanhHp);
+            Destroy(gameObject);
         }
     }
     private void Update_HP()

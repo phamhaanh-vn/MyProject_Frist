@@ -31,9 +31,15 @@ public class DanPlayer : MonoBehaviour
         if (collision.CompareTag("Boss"))
         {
             BossPlan plan = collision.GetComponentInParent<BossPlan>();
-            plan.Hurt(DameBullet_Player);
+            if (plan != null)
+            {
+                plan.Hurt(DameBullet_Player);
+            }
             BossPhuThuy boss = collision.GetComponentInParent<BossPhuThuy>();
-            boss.Hurt(DameBullet_Player);
+            if (boss != null)
+            {
+                boss.Hurt(DameBullet_Player);
+            }
         }
     }
 }

@@ -15,18 +15,21 @@ public class PlayerHealth : MonoBehaviour
     public int HPStart;
     public static PlayerHealth heart;
     public GameObject SpawnPlayer;
-    public float TimeHoiSinh = 0.5f;
+    private float TimeHoiSinh = 2f;
     public Vector2 Pos;
     private bool Push;
-    private Animator An;
+    public static Animator An;
     private Rigidbody2D rb;
     public float SpeedPush;
+    private BoxCollider2D playerBC;
+    [SerializeField] private LayerMask IsTrap;
     private void Awake()
     {
         heart = this;
     }
     void Start()
     {
+        playerBC = GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>();
         rb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
         Pos = transform.position;
         CurrentHealth = MaxHealth;
@@ -41,6 +44,19 @@ public class PlayerHealth : MonoBehaviour
             CurrentHealth = 3;
         }
         if (isBag && Time.time - LastdamgeTime >= TimeDelay)
+        {
+            CurrentHealth--;
+            Manager.diem.UpdateHeart();
+            LastdamgeTime = Time.time;
+            if (CurrentHealth <= 0)
+            {
+                HillGetComponent();
+                AudioManager.AU.PlaySFX(AudioManager.AU.Death);
+                An.SetTrigger("Death");
+                StartCoroutine(Die());
+            }
+        }
+        if (IsTrapGrow() && Time.time - LastdamgeTime >= TimeDelay)
         {
             CurrentHealth--;
             Manager.diem.UpdateHeart();
@@ -105,6 +121,10 @@ public class PlayerHealth : MonoBehaviour
         {
             isBag = false;
         }
+    }
+    private bool IsTrapGrow()
+    {
+        return Physics2D.OverlapBox(playerBC.bounds.center, playerBC.bounds.size, 0f, IsTrap);
     }
     public IEnumerator TimeCanMove()
     {

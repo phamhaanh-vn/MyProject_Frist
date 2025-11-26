@@ -6,6 +6,11 @@ public class LineDie : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-         StartCoroutine(PlayerHealth.heart.Die());
+        PlayerHealth.heart.CurrentHealth = 0;
+        PlayerHealth.heart.HillGetComponent();
+        PlayerHealth.An.SetTrigger("Death");
+        AudioManager.AU.PlaySFX(AudioManager.AU.Death);
+        Manager.diem.UpdateHeart();
+        StartCoroutine(PlayerHealth.heart.Die());
     }
 }

@@ -10,7 +10,7 @@ public class EnemyBone : MonoBehaviour
     private int count = 0;
     private float TimeDelayAttack = 0.75f;
     private float current_HP;
-    private float HP_max = 3;
+    private float HP_max = 4;
     private bool IsWalk = true;
     private bool InArea = false;
     private bool HasCollide = false;
@@ -28,14 +28,17 @@ public class EnemyBone : MonoBehaviour
     void Update()
     {
         OutArea();
-        if(transform.position.x > Moveplayer.Mo.transform.position.x)
+        Fill.transform.position = Fill.transform.position;
+        if (transform.position.x > Moveplayer.Mo.transform.position.x)
         {
+            Fill.transform.rotation= Quaternion.Euler(0, -180, 0);
             Vector3 scale = transform.localScale;
             scale.x = -1;
             transform.localScale = scale;
         }
         else
         {
+            Fill.transform.rotation = Quaternion.Euler(0, 0, 0);
             Vector3 scale = transform.localScale;
             scale.x = 1;
             transform.localScale = scale;
@@ -99,11 +102,12 @@ public class EnemyBone : MonoBehaviour
         }
         if (collision.CompareTag("Bullet_Player"))
         {
-            DanPlan Bullet = collision.GetComponent<DanPlan>();
+            DanPlayer Bullet = collision.GetComponent<DanPlayer>();
             current_HP -= Bullet.DameBullet_Player;
             UpdateFill();
             if (current_HP <= 0)
             {
+                BossPhuThuy.Enemy_Phu_Thuy.QuantityBone--;
                 Destroy(gameObject);
             }
         }
